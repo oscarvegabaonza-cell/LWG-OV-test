@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-21T10:16:15.851Z",
+  "repo": {
+    "connectorId": 22,
+    "repoSlug": "oscarvegabaonza-cell/LWG-OV-test",
+    "baseBranch": "main"
+  },
+  "team": {
+    "assetId": 3531,
+    "displayId": "TM-1",
+    "name": "My Team"
+  },
+  "tree": [
+    {
+      "assetId": 4701,
+      "displayId": "TC-5",
+      "name": "1 Amazon checkout test case",
+      "kind": "test-case",
+      "repoPath": "TC-5-1-Amazon-checkout-test-case.spec.ts"
+    },
+    {
+      "assetId": 4702,
+      "displayId": "TC-6",
+      "name": "2 Amazon checkout test case",
+      "kind": "test-case",
+      "repoPath": "TC-6-2-Amazon-checkout-test-case.spec.ts"
+    }
+  ],
+  "files": [
+    {
+      "assetId": 4701,
+      "assetKind": "test-case",
+      "displayId": "TC-5",
+      "name": "1 Amazon checkout test case",
+      "repoPath": "TC-5-1-Amazon-checkout-test-case.spec.ts",
+      "parentAssetId": 3531
+    },
+    {
+      "assetId": 4702,
+      "assetKind": "test-case",
+      "displayId": "TC-6",
+      "name": "2 Amazon checkout test case",
+      "repoPath": "TC-6-2-Amazon-checkout-test-case.spec.ts",
+      "parentAssetId": 3531
+    }
+  ]
+}
