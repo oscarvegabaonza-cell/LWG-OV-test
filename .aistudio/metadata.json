@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T11:31:37.242Z",
+  "generatedAt": "2026-07-22T17:03:36.242Z",
   "repo": {
     "connectorId": 22,
     "repoSlug": "oscarvegabaonza-cell/LWG-OV-test",
@@ -12,6 +12,36 @@
     "name": "My Team"
   },
   "tree": [
+    {
+      "assetId": 4772,
+      "displayId": "FD-1",
+      "name": "Homepage Content and Interaction",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 4773,
+          "displayId": "TC-7",
+          "name": "Display homepage welcome content and clicked result",
+          "kind": "test-case",
+          "repoPath": "Homepage Content and Interaction/TC-7-Display-homepage-welcome-content-and-clicked-result.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 4775,
+      "displayId": "FD-2",
+      "name": "Login Validation and Credential Errors",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 4776,
+          "displayId": "TC-9",
+          "name": "Display Invalid Credentials Error",
+          "kind": "test-case",
+          "repoPath": "Login Validation and Credential Errors/TC-9-Display-Invalid-Credentials-Error.spec.ts"
+        }
+      ]
+    },
     {
       "assetId": 4701,
       "displayId": "TC-5",
@@ -28,6 +58,22 @@
     }
   ],
   "files": [
+    {
+      "assetId": 4773,
+      "assetKind": "test-case",
+      "displayId": "TC-7",
+      "name": "Display homepage welcome content and clicked result",
+      "repoPath": "Homepage Content and Interaction/TC-7-Display-homepage-welcome-content-and-clicked-result.spec.ts",
+      "parentAssetId": 4772
+    },
+    {
+      "assetId": 4776,
+      "assetKind": "test-case",
+      "displayId": "TC-9",
+      "name": "Display Invalid Credentials Error",
+      "repoPath": "Login Validation and Credential Errors/TC-9-Display-Invalid-Credentials-Error.spec.ts",
+      "parentAssetId": 4775
+    },
     {
       "assetId": 4701,
       "assetKind": "test-case",
