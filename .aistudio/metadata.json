@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T09:47:09.527Z",
+  "generatedAt": "2026-07-24T10:03:23.233Z",
   "repo": {
     "connectorId": 22,
     "repoSlug": "oscarvegabaonza-cell/LWG-OV-test",
@@ -46,6 +46,21 @@
           "name": "Display Invalid Credentials Error",
           "kind": "test-case",
           "repoPath": "Login Validation and Credential Errors/TC-9-Display-Invalid-Credentials-Error.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 4782,
+      "displayId": "FD-4",
+      "name": "User Login and Authentication",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 4783,
+          "displayId": "TC-14",
+          "name": "Invalid credentials show authentication error",
+          "kind": "test-case",
+          "repoPath": "User Login and Authentication/TC-14-Invalid-credentials-show-authentication-error.spec.ts"
         }
       ]
     },
@@ -104,6 +119,14 @@
       "name": "2 Amazon checkout test case",
       "repoPath": "TC-6-2-Amazon-checkout-test-case.spec.ts",
       "parentAssetId": 3531
+    },
+    {
+      "assetId": 4783,
+      "assetKind": "test-case",
+      "displayId": "TC-14",
+      "name": "Invalid credentials show authentication error",
+      "repoPath": "User Login and Authentication/TC-14-Invalid-credentials-show-authentication-error.spec.ts",
+      "parentAssetId": 4782
     }
   ]
 }
