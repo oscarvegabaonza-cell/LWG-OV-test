@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T10:03:23.233Z",
+  "generatedAt": "2026-07-24T10:36:51.356Z",
   "repo": {
     "connectorId": 22,
     "repoSlug": "oscarvegabaonza-cell/LWG-OV-test",
@@ -46,6 +46,28 @@
           "name": "Display Invalid Credentials Error",
           "kind": "test-case",
           "repoPath": "Login Validation and Credential Errors/TC-9-Display-Invalid-Credentials-Error.spec.ts"
+        },
+        {
+          "assetId": 4777,
+          "displayId": "TC-10",
+          "name": "Log In With Valid Credentials",
+          "kind": "test-case",
+          "repoPath": "Login Validation and Credential Errors/TC-10-Log-In-With-Valid-Credentials.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 4779,
+      "displayId": "FD-3",
+      "name": "Post-Login Dashboard Access",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 4780,
+          "displayId": "TC-12",
+          "name": "Invalid login remains on login page with authentication error",
+          "kind": "test-case",
+          "repoPath": "Post-Login Dashboard Access/TC-12-Invalid-login-remains-on-login-page-with-authentication-error.spec.ts"
         }
       ]
     },
@@ -97,12 +119,28 @@
       "parentAssetId": 4772
     },
     {
+      "assetId": 4777,
+      "assetKind": "test-case",
+      "displayId": "TC-10",
+      "name": "Log In With Valid Credentials",
+      "repoPath": "Login Validation and Credential Errors/TC-10-Log-In-With-Valid-Credentials.spec.ts",
+      "parentAssetId": 4775
+    },
+    {
       "assetId": 4776,
       "assetKind": "test-case",
       "displayId": "TC-9",
       "name": "Display Invalid Credentials Error",
       "repoPath": "Login Validation and Credential Errors/TC-9-Display-Invalid-Credentials-Error.spec.ts",
       "parentAssetId": 4775
+    },
+    {
+      "assetId": 4780,
+      "assetKind": "test-case",
+      "displayId": "TC-12",
+      "name": "Invalid login remains on login page with authentication error",
+      "repoPath": "Post-Login Dashboard Access/TC-12-Invalid-login-remains-on-login-page-with-authentication-error.spec.ts",
+      "parentAssetId": 4779
     },
     {
       "assetId": 4701,
