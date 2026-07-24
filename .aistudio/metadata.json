@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-22T17:03:38.751Z",
+  "generatedAt": "2026-07-24T09:47:09.527Z",
   "repo": {
     "connectorId": 22,
     "repoSlug": "oscarvegabaonza-cell/LWG-OV-test",
@@ -24,6 +24,13 @@
           "name": "Display homepage welcome content and clicked result",
           "kind": "test-case",
           "repoPath": "Homepage Content and Interaction/TC-7-Display-homepage-welcome-content-and-clicked-result.spec.ts"
+        },
+        {
+          "assetId": 4774,
+          "displayId": "TC-8",
+          "name": "Do not show clicked result before homepage interaction",
+          "kind": "test-case",
+          "repoPath": "Homepage Content and Interaction/TC-8-Do-not-show-clicked-result-before-homepage-interaction.spec.ts"
         }
       ]
     },
@@ -64,6 +71,14 @@
       "displayId": "TC-7",
       "name": "Display homepage welcome content and clicked result",
       "repoPath": "Homepage Content and Interaction/TC-7-Display-homepage-welcome-content-and-clicked-result.spec.ts",
+      "parentAssetId": 4772
+    },
+    {
+      "assetId": 4774,
+      "assetKind": "test-case",
+      "displayId": "TC-8",
+      "name": "Do not show clicked result before homepage interaction",
+      "repoPath": "Homepage Content and Interaction/TC-8-Do-not-show-clicked-result-before-homepage-interaction.spec.ts",
       "parentAssetId": 4772
     },
     {
